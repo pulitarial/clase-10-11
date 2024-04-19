@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include <string.h>
+int v [10];
+int i=0;
+int mayores=0;
+int menores=0;
+int main()
+{
+    do 
+        {printf("Ingrese un numero\n");
+        scanf("%d",&v[i]);
+        i=i+1;
+        }
+    while (i<4);
+    for(i=0;i<10; i++)
+        {printf("los valores ingresados son:\n");
+        printf("%d\n",v[i]);
+            if (v[i]>=0)
+                mayores= mayores+1;
+                if (v[i]<0)
+                menores=menores+1;
+        }
+    printf("dentro del vector V hay %d valores mayores o iguales a 0\n", mayores);
+    printf("y tambien dentro del vector V hay %d valores menores a 0\n", menores);
+        
+	
+	return 0;
+}
