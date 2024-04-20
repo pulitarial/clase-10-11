@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include <string.h>
+char nombre [15];
+
+int main()
+{
+    printf("Ingrese su nombre\n");
+    scanf("%s",&nombre);
+    printf("El nombre ingresado es: %s ", nombre);
+    
+	
+	return 0;
+}
