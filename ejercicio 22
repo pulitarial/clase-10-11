@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include <string.h>
+int t;
+int i;
+int r;
+
+int main()
+{
+    printf("Los numeros pares entre el 2 y el 10 son:\n");
+    for (i=2; i<=10;i++)
+            {r=r+1;
+            if ((r%2)==0)
+                printf("%d es par\n",r);
+            }
+	
+	return 0;
+}
