@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include <string.h>
+int c,i,r,b;
+
+int main()
+{
+    printf("Ingrese la cantidad de valores sobre los que vamos a hacer el promedio\n");
+    scanf("%d",&c);
+    printf("Ingrese los %d valores:\n", c);
+    for (i=0; i<c;i++)
+        {scanf("%d",&b);
+        r=r+b;}
+    printf("El promedio es %d\n",(r/c));
+	
+	return 0;
+}
