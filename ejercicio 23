@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include <string.h>
+int t;
+int i;
+int r;
+
+int main()
+{
+    printf("Los numeros entre el 0 al 9 de mayor a menor son:\n");
+    for (i=9; i>0;i--)
+        //{r=r+1;
+        printf("%d\n",i);
+        //}
+	
+	return 0;
+}
