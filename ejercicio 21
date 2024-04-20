@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include <string.h>
+int t;
+int i;
+int r=1;
+
+int main()
+{
+    printf("Ingrese el numero que quiere factorizar\n");
+    scanf("%d",&t);
+    if (t==0)
+        printf("El valor es 1\n");
+    else
+        for (i=1; i<=t;i++)
+            r=r*i;
+        printf("el valor es%d",r);
+        
+	
+	return 0;
+}
